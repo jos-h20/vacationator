@@ -2,6 +2,10 @@ body {
   background-color: #b9d4e9;
 }
 
+.navbar-static-top {
+  margin-bottom: -3px;
+}
+
 .carousel-control.left
 {
 	background: none;
@@ -67,22 +71,29 @@ body {
 }
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
-    margin-top: 20px;
+    /*margin-top: 20px;*/
     top: 0;
     left: 0;
     min-width: 100%;
     max-height: 500px;
 }
-
+.jumbotron {
+  background-color: #b7b7b7;
+}
 
 h1 {
   text-align: center;
-  margin-top: 50px;
+  font-size: 50px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 25px;
 }
 
 .header {
   text-align: center;
-  margin-bottom: 50px;
+  font-size: 25px;
 }
 
 
@@ -95,20 +106,18 @@ h1 {
   margin-bottom: 50px;
 }
 
-#result1 {
-    display: none;
-}
-#result2 {
-    display: none;
-}
-#result3 {
-    display: none;
-}
-#result4 {
+#result1, #result2, #result3, #result4, #result5, #result6, #result7, #result8, #result9, #result10, #result11, #result12 {
     display: none;
 }
 
 img {
 max-height: 300px;
 max-width: 300px;
+}
+
+.navbar-inverse {
+  background-color: #b7b7b7;
+}
+.navbar-static-bottom {
+  margin-top: 50px;
 }

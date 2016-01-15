@@ -16,7 +16,7 @@ $(document).ready(function() {
     }
 
     else if (distance === 'far' && pace === 'relaxed' && climate === 'tropical' && kids === 'no' && money === 'cheap') {
-      $("#result3").show();
+      $("#result6").show();
     }
 
     else if (distance === 'near' && pace === 'active' && climate === 'snow' && kids === 'no' && money === 'cheap') {
@@ -31,16 +31,60 @@ $(document).ready(function() {
       $("#result2").show();
     }
 
-    else if (distance === 'far' && pace === 'relaxed' && climate === 'tropical' && kids === 'no' && money === 'expensive') {
-      $("#result3").show();
+    else if (distance === 'far' && pace === 'relaxed' && climate === 'snow' && kids === 'no' && money === 'expensive') {
+      $("#result7").show();
     }
 
-    else if (distance === 'near' && pace === 'relaxed' || 'active' && climate === 'tropical' && kids === 'yes' && money === 'expensive') {
+    else if (distance === 'near' && pace === 'active' && climate === 'tropical' && kids === 'yes' && money === 'expensive') {
+      $("#result5").show();
+    }
+
+    else if (distance === 'near' && pace === 'active' && climate === 'tropical' && kids === 'yes' && money === 'cheap') {
+      $("#result8").show();
+    }
+
+    else if (distance === 'near' && pace === 'relaxed' && climate === 'tropical' && kids === 'yes' && money === 'expensive') {
+      $("#result8").show();
+    }
+
+    else if (distance === 'far' && pace === 'active' && climate === 'tropical' && kids === 'yes' && money === 'expensive') {
+      $("#result9").show();
+    }
+
+    else if (distance === 'far' && pace === 'relaxed' && climate === 'tropical' && kids === 'yes' && money === 'expensive') {
+      $("#result9").show();
+    }
+
+    else if (distance === 'near' && pace === 'relaxed' && climate === 'tropical' && kids === 'yes' && money === 'cheap') {
       $("#result4").show();
     }
 
-    else if (distance === 'far' && pace === 'relaxed' && climate === 'tropical' && kids === 'no' && money === 'expensive') {
-      $("#result3").show();
+    else if (distance === 'near' && pace === 'active' && climate === 'tropical' && kids === 'no' && money === 'expensive') {
+      $("#result5").show();
+    }
+
+    else if (distance === 'far' && pace === 'active' && climate === 'tropical' && kids === 'no' && money === 'expensive') {
+      $("#result10").show();
+    }
+
+    else if (distance === 'near' && pace === 'relaxed' && climate === 'tropical' && kids === 'no' && money === 'expensive') {
+      $("#result5").show();
+    }
+
+    else if (distance === 'near' && pace === 'active' && climate === 'tropical' && kids === 'no' && money === 'expensive') {
+      $("#result5").show();
+    }
+
+    else if (distance === 'near' && pace === 'active' && climate === 'tropical' && kids === 'no' && money === 'cheap') {
+      $("#result11").show();
+    }
+
+    else if (distance === 'near' && pace === 'relaxed' && climate === 'tropical' && kids === 'no' && money === 'cheap') {
+      $("#result12").show();
+    }
+
+    else if (distance === 'far' && pace === 'active' && climate === 'tropical' && kids === 'no' && money === 'cheap') {
+      $("#result6").show();
     }
 
 
@@ -50,7 +94,7 @@ $(document).ready(function() {
 
 
     else {
-      $("#result3").show();
+      $("#result2").show();
     }
 
     event.preventDefault();

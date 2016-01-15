@@ -3,14 +3,122 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href="css/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link rel="stylesheet" href="css/styles.css" media="screen" title="no title">
+
     <script src="js/jquery-1.12.0.js"></script>
+    <script src="css/bootstrap/dist/js/bootstrap.min.js"></script>
+
     <script src="js/scripts.js" type="text/javascript"></script>
 
     <title></title>
   </head>
   <body>
+
+    <div class="container">
+
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="images/alps.jpg" alt="alps">
+                <div class="carousel-caption">
+                    <h1>alps</h1>
+                    <!-- <p>Details of Slide 1. Lorem Ipsum Blah Blah Blah....</p> -->
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/tulum.jpg" alt="tulum">
+                <div class="carousel-caption">
+                    <h1>tulum, mexico</h1>
+                    <!-- <p>Details of Slide 2. Lorem Ipsum Blah Blah Blah....</p> -->
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/bend.jpg" alt="bend, oregon">
+                <div class="carousel-caption">
+                    <h1>bend,oregon</h1>
+                    <!-- <p>Details of Slide 3. Lorem Ipsum Blah Blah Blah....</p> -->
+                </div>
+            </div>
+        </div>
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="fa fa-angle-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="fa fa-angle-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+      </div>
+
+      <h1>Vacation Suggester</h1>
+
+      <p class="header">Which vacation is best for you? Click on your preferences to find out: </p>
+
+      <div class="row">
+        <div class="col-md-6">
+
+          <form id="questions">
+            <p><label for="distance">Near or Far</label></p>
+            <select id="distance">
+              <option value="near">Near</option>
+              <option value="far">Far</option>
+            </select>
+            <p><label for="pace">Active or Relaxed</label></p>
+            <select id="pace">
+              <option value="active">Active</option>
+              <option value="relaxed">Relaxed</option>
+            </select>
+            <p><label for="climate">Tropical or Snow</label></p>
+            <select id="climate">
+              <option value="tropical">Tropical</option>
+              <option value="snow">Snow</option>
+            </select>
+            <p><label for="kids">Kids</label></p>
+            <select id="kids">
+              <option value="yes">Yes</option>
+              <option value="no">No</option>
+            </select>
+            <p><label for="money">Cheap or Expensive</label></p>
+            <select id="money">
+              <option value="expensive">Expensive</option>
+              <option value="cheap">Cheap</option>
+            </select>
+          </div>
+
+          <p><button type="submit" class="btn">Find out which vacation is right for you!
+          </button></p>
+          <p><input type="reset" value="Try again!" class="btn" onClick="window.location.reload()">
+          </p>
+        </form>
+
+          <div class="col-md-6 col-centered">
+            <div id="result1">
+              <p><img src="images/alps.jpg" alt="alps"></p>
+              <p>
+                You should go to the Alps!
+              </p>
+            </div>
+            <div id="result2">
+              <p><img src="images/bend.jpg" alt="bend, oregon"></p>
+            </div>
+            <div id="result3">
+              <p><img src="images/tulum.jpg" alt="tulum"></p>
+
+            </div>
+            <div id="result4">
+              <p><img src="images/disneyland.jpg" alt="disneyland"></p>
+            </div>
+         </div>
+      </div>
+    </div>
 
   </body>
 </html>

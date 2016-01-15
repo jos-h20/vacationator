@@ -87,6 +87,14 @@ $(document).ready(function() {
       $("#result6").show();
     }
 
+    else if (distance === 'far' && pace === 'active' && climate === 'snow' && kids === 'yes' && money === 'expensive') {
+      $("#result1").show();
+    }
+
+    else if (distance === 'far' && pace === 'relaxed' && climate === 'snow' && kids === 'yes' && money === 'expensive') {
+      $("#result13").show();
+    }
+
 
 
 

@@ -97,7 +97,7 @@ h2 {
 }
 
 
-#questions {
+#questions p {
   margin-top: 25px;
   margin-bottom: 10px;
   font-size: 22px;
@@ -105,31 +105,32 @@ h2 {
 }
 
 .btn {
-  margin-left: 30px;
-  margin-top: 30px;
-  margin-bottom: 50px;
   font-size: 20px;
   font-weight: bold;
 }
 
+.sub {
+  margin-right: 100px;
+  margin-top: 25px;
+}
+
+.btn-lg {
+  float: right;
+}
+
 .selbut {
-  padding-right: 200px;
+  padding-right: 75px;
 }
 
 #result1, #result2, #result3, #result4, #result5, #result6, #result7, #result8, #result9, #result10, #result11, #result12, #result13 {
     display: none;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 img {
 max-height: 500px;
 max-width: 500px;
 }
-
-/*.row {
-  border-left: 1px solid;
-  border-right: 1px solid;
-}*/
 
 .navbar-inverse {
   background-color: #b7b7b7;

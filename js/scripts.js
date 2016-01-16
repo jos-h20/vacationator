@@ -94,12 +94,9 @@ $(document).ready(function() {
     else if (distance === 'far' && pace === 'relaxed' && climate === 'snow' && kids === 'yes' && money === 'expensive') {
       $("#result13").show();
     }
-
-
-
-
-
-
+    else if (distance === 'far' && pace === 'relaxed' && climate === 'tropics' && kids === 'yes' && money === 'cheap') {
+      $("#result6").show();
+    }
 
     else {
       $("#result2").show();

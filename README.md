@@ -1,4 +1,4 @@
-# _vacation suggester_
+# _Vacationator_
 
 #### _Suggests vacation sites based on preferences, 1.15.2016_
 
@@ -10,7 +10,7 @@ _By answering questions provided this application will suggest an appropriate va
 
 ## Setup/Installation Requirements
 
-* _Click on the link _
+* _Click on the link http://jos-h20.github.io/vacationator_
 
 _
 
@@ -28,6 +28,5 @@ _Bootstrap, Javascript and jQuery_
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
 
 Copyright (c) 2016 **_OverlyDev Licensing MIT_**
